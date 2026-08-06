@@ -2,7 +2,7 @@
 
 ## About
 
-This project is a SQL Server database created for a fictional computer retail company called TechMart. It was built to practice database design and SQL programming.
+This project is a SQL Server database created for a fictional computer retail company called TechMart. It was built to practice database design, SQL programming, and database administration.
 
 ## Tools Used
 
@@ -10,16 +10,34 @@ This project is a SQL Server database created for a fictional computer retail co
 - SQL Server Management Studio (SSMS)
 - SQL (T-SQL)
 
-## Files
+## Project Structure
 
-- 01_CreateDatabase.sql
-- 02_CreateTables.sql
-- 03_InsertSampleData.sql
-- 04_ValidationQueries.sql
-- 05_Views.sql
-- 06_StoredProcedures.sql
+```
+TechMart-Database-Management-System/
+│
+├── Project 1 - Database Design/
+│   └── Scripts/
+│       ├── 01_CreateDatabase.sql
+│       ├── 02_CreateTables.sql
+│       ├── 03_InsertSampleData.sql
+│       ├── 04_ValidationQueries.sql
+│       ├── 05_Views.sql
+│       └── 06_StoredProcedures.sql
+│
+├── Project 2 - Database Administration/
+│   └── Scripts/
+│       ├── 01_FullBackup.sql
+│       ├── 02_DifferentialBackup.sql
+│       ├── 03_RestoreDatabase.sql
+│       ├── 04_RecoveryDemo.sql
+│       └── 05_Maintenance.sql
+│
+└── README.md
+```
 
-## Features
+## Project 1 - Database Design
+
+Features:
 
 - Create a database
 - Create tables with primary and foreign keys
@@ -27,6 +45,16 @@ This project is a SQL Server database created for a fictional computer retail co
 - Run validation queries
 - Create views
 - Create stored procedures
+
+## Project 2 - Database Administration
+
+Features:
+
+- Create full database backups
+- Create differential backups
+- Restore a database from backup
+- Recover deleted data
+- Perform database maintenance
 
 ## Skills Learned
 
@@ -37,3 +65,7 @@ This project is a SQL Server database created for a fictional computer retail co
 - Foreign Keys
 - Views
 - Stored Procedures
+- Database Backup and Restore
+- Database Recovery
+- Database Maintenance
+- SQL Server Administration
